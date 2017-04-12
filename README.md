@@ -24,7 +24,9 @@ at https://github.com/SensibilityTestbed/sensibility-testbed .
 -------
 
 The Sensibility Testbed app uses the following functions that
-require the `READ_PHONE_STATE` permission:
+require the `READ_PHONE_STATE` permission. See the Android documentation
+for more details on these functions,
+https://developer.android.com/reference/android/telephony/TelephonyManager.html
 * `getNetworkOperator`
 * `getNetworkOperatorName`
 * `getAllCellInfo`
